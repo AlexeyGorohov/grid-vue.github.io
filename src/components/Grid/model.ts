@@ -8,7 +8,7 @@ export const enum EMods {
 export interface ITag {
   title: string,
   styles: {
-    backgroundColor: String;
+    backgroundColor: string;
   };
 }
 
@@ -20,7 +20,7 @@ export interface ICell {
   description?: string;
   image?: string;
   link?: string;
-  mods?: Array<String>, 
+  mods?: Array<string>, 
   stylesCell?: {
     backgroundColor?: string;
     gridRow?: string;
